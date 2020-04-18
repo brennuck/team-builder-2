@@ -6,6 +6,7 @@ const Team = props => {
             {props.teammate.map(mate => (
                 <div>
                     <h3> {mate.name} </h3>
+                    <h4> {mate.email} </h4>
                     <p> {mate.role} </p>
                 </div>
             ))}
